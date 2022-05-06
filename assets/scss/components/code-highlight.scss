@@ -5,6 +5,7 @@ $ht-code-border-radius: .4em;
     border-radius: $ht-code-border-radius;
 
     &>div.chroma>table.lntable{
+        width: max-content;
         margin: $ht-code-border-radius 0 $ht-code-border-radius 0;
         & td:first-of-type {
             & span:not(& span>span) {
