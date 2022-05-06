@@ -14,7 +14,8 @@
   {{ if .Get "link" }}</a>{{ end }}
   <figcaption>
 {{ else }}
-  <label for="{{ .Get "label" }}" class="margin-toggle">⊕</label>
+  <!-- <label for="{{ .Get "label" }}" class="margin-toggle">⊕</label> -->
+  <label for="{{ .Get "label" }}" class="margin-toggle"><sup>*</sup></label>
   <input type="checkbox" id="{{ .Get "label" }}" class="margin-toggle">
   <span class="marginnote">
   {{ if eq $type "margin" }}
