@@ -1,0 +1,6 @@
+<ruby>
+    <rb>{{ .Inner | markdownify }}</rb>
+    <rp> (</rp>
+    {{ with .Get "mark" }}<rt>{{ . }}</rt>{{ end }}
+    <rp>) </rp>
+</ruby>
