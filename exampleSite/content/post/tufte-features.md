@@ -1,10 +1,10 @@
 +++
-author = "AUTHOR NAME"
+author = "Laurenfrost"
 date = "2016-02-20T13:56:01-08:00"
 meta = true
 math = true
 title = "Hugo-Tufte Features"
-subtitle = "Fancy Subtitle"
+subtitle = "A Fancy Subtitle"
 toc = true
 categories = ["katex", "latex", "tufte-css"]
 
@@ -14,6 +14,7 @@ categories = ["katex", "latex", "tufte-css"]
 This is a quick demonstration post.  It serves as an example of the features
 of this theme.  One of them is $ \LaTeX $ via [Katex](https://katex.org/). 
 {{< section "begin" >}}
+
 ## A Bit About Mathematics
 
 {{< epigraph pre="Shawn O'Hare, " cite="Math is Fun" >}}
@@ -180,6 +181,17 @@ Below is a full-width figure.
   link="link"
  >}}
 {{< section "end" >}}
+
+## A {{<ruby mark="</ruby>">}}Ruby{{</ruby>}} Annotation
+
+Another very important feature is a `</ruby>` mark. It supports not only latin but also CJK character sets.
+
+```html {linenos=table, linenostart=1}
+<!-- {{<ruby mark="Pronunciation">}}The Word{{</ruby>}} -->
+<ruby mark="Pronunciation">The Word</ruby>
+```
+
+{{<ruby mark="zhōng wén">}}中文{{</ruby>}}可以注音，日本語の文字に{{<ruby mark="ふりがな">}}振り仮名{{</ruby>}}をつけることも可能である。
 
 {{< div class="myclass" >}}
 ## A Story About Cats

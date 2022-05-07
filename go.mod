@@ -1,3 +1,3 @@
-module github.com/slashformotion/hugo-tufte
+module github.com/Laurenfrost/hugo-tufte-cjk
 
 go 1.17

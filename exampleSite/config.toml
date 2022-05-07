@@ -2,11 +2,11 @@
 themesDir = "../../"
 
 # Set your theme here
-theme = "hugo-tufte"
+theme = "hugo-tufte-cjk"
 # The language of your website (see https://www.andiamo.co.uk/resources/iso-language-codes/ for reference)
 languageCode = "en-us"
 # The url of your website
-baseurl = "https://slashformotion.github.io/hugo-tufte/"
+baseurl = "https://laurenfrost.github.io/hugo-tufte-cjk/"
 # The title of your website (shown on all the pages)
 title = "Hugo-tufte Theme Example Site"
 # Site wide kill switch for Latex support
@@ -30,18 +30,18 @@ katex = true
   # Common social website links, please comment the unused ones.
   ## (if your favorite one is not in the list, please head to the footer menu below and add an entry)
   ### Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
-  github = "slashformotion"
-  gitlab = "slashformotion"
-  twitter = "slashformotion"
+  github = "Laurenfrost"
+  gitlab = ""
+  twitter = ""
   patreon = ""
-  youtube = "user/ChromeDevelopers" # check the end of your youtube url https://www.youtube.com/<copy_this>
-  medium = "slashformotion"
-  reddit = "Slashformotion"
-  stackoverflow = "16609732/slashformotion"
-  instagram = "google"
-  mastodon = "instance.url/@username"
-  orcid = "0000-0003-0634-3275"
-  google_scholar = "jm5QaHkAAAAJ"
+  youtube = ""
+  medium = ""
+  reddit = ""
+  stackoverflow = ""
+  instagram = ""
+  mastodon = ""
+  orcid = ""
+  google_scholar = ""
 
 [taxonomies]
   category = "categories"
@@ -79,7 +79,7 @@ katex = true
   pre = "<i class='fab fa-github fa-lg'></i> "
   weight = -70 
   identifier = "github"
-  url = "https://github.com/slashformotion/hugo-tufte"
+  url = "https://github.com/Laurenfrost/hugo-tufte-cjk"
 
 # -----------------------------------------------------------------------
 # FOOTER MENU

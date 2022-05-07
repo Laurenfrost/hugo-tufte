@@ -1,14 +1,15 @@
-name = "Tufte"
+name = "Tufte-CJK"
 license = "MIT"
-licenselink = "https://github.com/slashformotion/hugo-tufte/blob/master/LICENSE.md"
-description = "A minimalist blog theme using Tufte-css."
-homepage = "https://github.com/slashformotion/hugo-tufte"
-demo = "https://slashformotion.github.io/hugo-tufte/"
+licenselink = "https://github.com/Laurenfrost/hugo-tufte-cjk/blob/master/LICENSE.md"
+description = "A minimalist blog theme using Tufte-css, support CJK."
+homepage = "https://github.com/Laurenfrost/hugo-tufte-cjk"
+demo = "https://laurenfrost.github.io/hugo-tufte-cjk/"
 tags = ["blog", "tufte", "minimal", 'light', "personal"]
 features = ["math", "tufte-css", "tufte"]
 min_version = 0.83
 
 authors = [
   {name = "Shawn O'Hare", homepage = "http://www.shawnohare.com"},
-  {name = "Slashformotion", homepage = "https://github.com/slashformotion"}
+  {name = "Slashformotion", homepage = "https://github.com/slashformotion"},
+  {name = "Laurenfrost", homepage = "https://github.com/Laurenfrost"}
 ]
