@@ -4,11 +4,12 @@ footer.page-footer{
     margin-top: 3em;
     color: #aaa;
     width: 95%;
-    max-width: 45rem;
+    // max-width: 45rem;
 }
 footer.page-footer p {
     font-size: 1.2rem;
     margin: 0em;
+    text-align: left;
     /* light font looked odd on chrome */
     /*font-weight: lighter;*/
 }
@@ -43,4 +44,5 @@ footer.page-footer ul.page-footer-menu li {
 }
 .copyright p {
     font-size: 90%;
+    text-align: left;
 }
