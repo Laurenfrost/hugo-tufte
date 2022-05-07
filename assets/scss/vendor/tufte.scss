@@ -528,7 +528,9 @@ label.margin-toggle:not(.sidenote-number) {
         clear: both;
         width: 95%;
         margin: 1rem 2.5%;
-        vertical-align: baseline;
+        // Property is ignored due to the display. With 'display: block', 
+        // vertical-align should not be used.scss(propertyIgnoredDueToDisplay)
+        // vertical-align: baseline;
         position: relative;
     }
     label {
@@ -547,7 +549,9 @@ label.margin-toggle:not(.sidenote-number) {
         margin-bottom: 0.5rem;
         margin-left: 1%;
         margin-right: 1%;
-        vertical-align: baseline;
+        // Property is ignored due to the display. With 'display: block', 
+        // vertical-align should not be used.scss(propertyIgnoredDueToDisplay)
+        // vertical-align: baseline;
         position: relative;
     }
     div.table-wrapper,
