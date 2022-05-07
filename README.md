@@ -1,17 +1,18 @@
 # Tufte Hugo Theme
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
-[![build github pages](https://github.com/slashformotion/hugo-tufte/actions/workflows/build-site-ghpages.yml/badge.svg)](https://github.com/slashformotion/hugo-tufte/actions/workflows/build-site-ghpages.yml)
+[![build github pages](https://github.com/Laurenfrost/hugo-tufte-cjk/actions/workflows/build-site-ghpages.yml/badge.svg)](https://github.com/Laurenfrost/hugo-tufte-cjk/actions/workflows/build-site-ghpages.yml)
 
-***This theme isn't actively maintained, if you want a new feature please file a pull request.***
 
-Hugo-Tufte is a minimalist blog-like theme for the
-[static site generator Hugo](https://gohugo.io) that
-attempts to be a faithful implementation of the
-[Tufte-css](https://github.com/edwardtufte/tufte-css) project.
-It supports mathematical typesetting via [katex](https://katex.org/) or [MathJax](https://www.mathjax.org).
-By utilizing copious partial templates the theme is largely customizable.
+> Hugo-Tufte is a minimalist blog-like theme for the
+> [static site generator Hugo](https://gohugo.io) that
+> attempts to be a faithful implementation of the
+> [Tufte-css](https://github.com/edwardtufte/tufte-css) project.
+> It supports mathematical typesetting via [katex](https://katex.org/) or [MathJax](https://www.mathjax.org).
+> By utilizing copious partial templates the theme is largely customizable.
+> 
+> This is a fork of the original [hugo-tufte](https://github.com/shawnohare/hugo-tufte). 
 
-This is a fork of the original [hugo-tufte](https://github.com/shawnohare/hugo-tufte). 
+This is a fork of a modified version [hugo-tufte](https://github.com/slashformotion/hugo-tufte) of [slashformotion](https://github.com/slashformotion). 
 
 ## Quickstart
 
@@ -38,6 +39,18 @@ Add `theme = 'hugo-tufte'` to your `config.toml` to let your site know to actual
 Then run `hugo server -D` and open up `localhost:1313/` or wherever it says in Firefox.
 
 ## Features
+
+### <ruby><rb>Ruby</rb><rt>\<\/ruby\></rt></ruby> Annotation
+
+Another very important feature is a `</ruby>` mark. It supports not only latin but also CJK character sets.
+
+```html {linenos=table, linenostart=1}
+<!-- Syntax -->
+{{<ruby mark="Pronunciation">}}The Word{{</ruby>}}
+<!-- Equal with following html expr -->
+<ruby><rb>The Word</rb><rt>Pronunciation</rt></ruby>
+```
+<ruby><rb>中文</rb><rt>zhōng wén</rt></ruby>可以注音，日本語の文字に<ruby><rb>振り仮名</rb><rt>ふりがな</rt></ruby>をつけることも可能である。
 
 ### Math
 
