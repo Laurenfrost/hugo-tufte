@@ -24,9 +24,9 @@
     {{ if .Get "link" }}</a>{{ end }}
   {{ end }}
 {{ end }}
-  {{ with .Get "title"}}<strong>{{ . }} </strong>{{ end}}
+  {{ with .Get "title"}}<strong>{{ . }}</strong>{{ end }}
   {{ with .Get "caption"}}{{ . }}{{ end }}
-  {{ with .Get "attrlink"}}<a href="{{ .}}">{{ end }}
+  {{ with .Get "attrlink"}}by <a href="{{ .}}">{{ end }}
   {{ with .Get "attr" }}{{ . }}{{ end }}
   {{ if .Get "attrlink" }}</a>{{ end }}
 {{ if eq $type "full" }}
