@@ -34,7 +34,7 @@ cd <your-site-name>\themes\    # cd into the themes directory
 git clone <this-git-repo>      # HTTPS link @ the top of the page if you've never done this before
 ```
 
-Add `theme = 'hugo-tufte'` to your `config.toml` to let your site know to actually use _this_ theme, specifically.
+Add `theme = 'hugo-tufte-cjk'` to your `config.toml` to let your site know to actually use _this_ theme, specifically.
 
 Then run `hugo server -D` and open up `localhost:1313/` or wherever it says in Firefox.
 
