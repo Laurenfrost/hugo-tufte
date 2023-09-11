@@ -2,5 +2,7 @@
   <p>
     {{ .Inner | markdownify }}
   </p>
-  <footer>{{ .Get "footer" }}</footer>
+  {{ if .Get "link" }}<footer><a href={{ .Get "link" }}><u>{{ .Get "footer" }}</u></a></footer>
+  {{ else }}<footer>{{ .Get "footer" }}</footer>
+  {{ end }}
 </blockquote>

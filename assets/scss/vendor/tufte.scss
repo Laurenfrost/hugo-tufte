@@ -54,89 +54,30 @@
     font-style: normal;
 }
 
-/* noto-serif-sc-regular - chinese-simplified */
+/* Lxgw */
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: "LxgwNeoZhiSong";
     font-style: normal;
     font-weight: normal;
-    src: url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.svg#NotoSerifSC') format('svg'); /* Legacy iOS */
-  }
+    src: url("https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.112/LXGWNeoZhiSongCHS.ttf") format("truetype");
+    src: url("Lxgw/LxgwNeoZhiSong/LXGWNeoZhiSongCHS.ttf") format("truetype");
+}
 
-/* noto-serif-tc-regular - chinese-traditional */
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: "LxgwWenKai";
     font-style: normal;
     font-weight: normal;
-    src: url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.svg#NotoSerifTC') format('svg'); /* Legacy iOS */
-  }
+    src: url("https://github.com/lxgw/LxgwWenKai/releases/download/v1.300/LXGWWenKai-Regular.ttf") format("truetype");
+    src: url("Lxgw/LxgwWenKai/LXGWWenKai-Regular.ttf") format("truetype");
+}
 
-/* noto-serif-jp-regular - japanese */
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: "HuayingMincho";
     font-style: normal;
     font-weight: normal;
-    src: url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.svg#NotoSerifJP') format('svg'); /* Legacy iOS */
-  }
-
-/* noto-serif-sc-700 - chinese-simplified */
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: bold;
-    src: url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.svg#NotoSerifSC') format('svg'); /* Legacy iOS */
-  }
-
-/* noto-serif-tc-700 - chinese-traditional */
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: bold;
-    src: url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.svg#NotoSerifTC') format('svg'); /* Legacy iOS */
-  }
-
-/* noto-serif-jp-700 - japanese */
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: bold;
-    src: url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.svg#NotoSerifJP') format('svg'); /* Legacy iOS */
-  }
+    src: url("https://github.com/GuiWonder/HuayingMincho/releases/download/1.009/HuayingMincho.ttc") format("truetype");
+    src: url("Huaying/HuayingMincho.ttc") format("truetype");
+}
   
   
 
@@ -150,7 +91,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: "et-book", "HuayingMincho", "Noto Serif", serif;
     background-color: #fffff8;
     color: #111;
     max-width: 1400px;
@@ -161,26 +102,55 @@ h1 {
     font-weight: 400;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     line-height: 1;
+}
+
+h1 > code {
+    font-style: italic;
+    font-size: 2.8rem;
 }
 
 h2 {
     font-style: italic;
     font-weight: 400;
-    margin-top: 2.1rem;
+    margin-top: 2.2rem;
     margin-bottom: 0;
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     line-height: 1;
+}
+
+h2 > code {
+    font-style: italic;
+    font-size: 2.2rem;
 }
 
 h3 {
     font-style: italic;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 0;
     line-height: 1;
+}
+
+h3 > code {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+h4 > code {
+    font-style: italic;
+    font-size: 1.3rem;
 }
 
 hr {
@@ -233,6 +203,7 @@ p {
 
 /* Chapter Epigraphs */
 div.epigraph {
+    font-family: et-book, "LxgwWenKai";
     margin: 5em 0;
 }
 
@@ -243,6 +214,7 @@ div.epigraph > blockquote {
 
 div.epigraph > blockquote,
 div.epigraph > blockquote > p {
+    font-family: et-book, "LxgwWenKai";
     font-style: italic;
 }
 
@@ -279,6 +251,18 @@ ul {
 
 li  ul {
     width: 100%;
+}
+
+li > .highlight,
+li > p,
+li > blockquote > p {
+    width: 100%;
+}
+
+li > ol,
+blockquote > ol,
+blockquote > ul {
+    width:fit-content;
 }
 
 li {
@@ -501,24 +485,24 @@ label.sidenote-number {
     display: inline;
 }
 
-// label.margin-toggle:not(.sidenote-number) {
-//     display: none;
-// }
-
 label.margin-toggle:not(.sidenote-number) {
-    display: inline;
+    display: none;
 }
 
+// label.margin-toggle-2:not(.sidenote-number) {
+//     display: inline;
+// }
+
 @media (max-width: 760px) {
-    // label.margin-toggle:not(.sidenote-number) {
-    //     display: inline;
-    // }
     label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+    }
+    label.margin-toggle-2:not(.sidenote-number) {
         display: inline;
     }
     .sidenote,
     .marginnote {
-        display: none;
+        display: inline;
     }
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
@@ -528,9 +512,7 @@ label.margin-toggle:not(.sidenote-number) {
         clear: both;
         width: 95%;
         margin: 1rem 2.5%;
-        // Property is ignored due to the display. With 'display: block', 
-        // vertical-align should not be used.scss(propertyIgnoredDueToDisplay)
-        // vertical-align: baseline;
+        vertical-align: baseline;
         position: relative;
     }
     label {
@@ -549,9 +531,7 @@ label.margin-toggle:not(.sidenote-number) {
         margin-bottom: 0.5rem;
         margin-left: 1%;
         margin-right: 1%;
-        // Property is ignored due to the display. With 'display: block', 
-        // vertical-align should not be used.scss(propertyIgnoredDueToDisplay)
-        // vertical-align: baseline;
+        vertical-align: baseline;
         position: relative;
     }
     div.table-wrapper,
