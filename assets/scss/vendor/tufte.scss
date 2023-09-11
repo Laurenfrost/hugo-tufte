@@ -54,89 +54,30 @@
     font-style: normal;
 }
 
-/* noto-serif-sc-regular - chinese-simplified */
+/* Lxgw */
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: "LxgwNeoZhiSong";
     font-style: normal;
     font-weight: normal;
-    src: url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-regular.svg#NotoSerifSC') format('svg'); /* Legacy iOS */
-  }
+    src: url("https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.112/LXGWNeoZhiSongCHS.ttf") format("truetype");
+    src: url("Lxgw/LxgwNeoZhiSong/LXGWNeoZhiSongCHS.ttf") format("truetype");
+}
 
-/* noto-serif-tc-regular - chinese-traditional */
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: "LxgwWenKai";
     font-style: normal;
     font-weight: normal;
-    src: url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-regular.svg#NotoSerifTC') format('svg'); /* Legacy iOS */
-  }
+    src: url("https://github.com/lxgw/LxgwWenKai/releases/download/v1.300/LXGWWenKai-Regular.ttf") format("truetype");
+    src: url("Lxgw/LxgwWenKai/LXGWWenKai-Regular.ttf") format("truetype");
+}
 
-/* noto-serif-jp-regular - japanese */
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: "HuayingMincho";
     font-style: normal;
     font-weight: normal;
-    src: url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-regular.svg#NotoSerifJP') format('svg'); /* Legacy iOS */
-  }
-
-/* noto-serif-sc-700 - chinese-simplified */
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: bold;
-    src: url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-sc-v21-chinese-simplified/noto-serif-sc-v21-chinese-simplified-700.svg#NotoSerifSC') format('svg'); /* Legacy iOS */
-  }
-
-/* noto-serif-tc-700 - chinese-traditional */
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: bold;
-    src: url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-tc-v22-chinese-traditional/noto-serif-tc-v22-chinese-traditional-700.svg#NotoSerifTC') format('svg'); /* Legacy iOS */
-  }
-
-/* noto-serif-jp-700 - japanese */
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: bold;
-    src: url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.woff') format('woff'), /* Modern Browsers */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('noto-serif/noto-serif-jp-v20-japanese/noto-serif-jp-v20-japanese-700.svg#NotoSerifJP') format('svg'); /* Legacy iOS */
-  }
+    src: url("https://github.com/GuiWonder/HuayingMincho/releases/download/1.009/HuayingMincho.ttc") format("truetype");
+    src: url("Huaying/HuayingMincho.ttc") format("truetype");
+}
   
   
 
@@ -150,7 +91,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: "et-book", "HuayingMincho", "Noto Serif", serif;
     background-color: #fffff8;
     color: #111;
     max-width: 1400px;
@@ -262,6 +203,7 @@ p {
 
 /* Chapter Epigraphs */
 div.epigraph {
+    font-family: et-book, "LxgwWenKai";
     margin: 5em 0;
 }
 
@@ -272,6 +214,7 @@ div.epigraph > blockquote {
 
 div.epigraph > blockquote,
 div.epigraph > blockquote > p {
+    font-family: et-book, "LxgwWenKai";
     font-style: italic;
 }
 

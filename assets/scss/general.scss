@@ -21,12 +21,10 @@ article,
 header,
 footer,
 .pure-g [class*="pure-u"] {
-    font-family: "et-book", -apple-system, "San Francisco", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-        "Open Sans", "Helvetica Neue", "Lucida Grand", "Noto Serif", sans-serif;
+    font-family: "et-book", "HuayingMincho", "Noto Serif", serif;
 }
 
 ruby > rt {
-    font-family: "et-book", "Noto Serif", sans-serif;
     font-size: 0.9rem;
     margin-top: -0.2rem;
     margin-bottom: -0.3rem;
