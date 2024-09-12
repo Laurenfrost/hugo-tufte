@@ -14,6 +14,15 @@
 
 This is a fork of a modified version [hugo-tufte](https://github.com/slashformotion/hugo-tufte) of [slashformotion](https://github.com/slashformotion). 
 
+### CJK Fonts
+
+- LXGW Neo ZhiSong / 霞鹜新致宋
+  - https://github.com/lxgw/LxgwNeoZhiSong
+- LXGW Heart Serif / 霞鹜铭心宋
+  - https://github.com/lxgw/LxgwHeartSerif
+- LXGW WenKai / 霞鹜文楷
+  - https://github.com/lxgw/LxgwWenKai
+
 ## Quickstart
 
 ### Prerequisite: Hugo Extended
