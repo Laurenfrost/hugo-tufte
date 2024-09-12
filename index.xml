@@ -8,10 +8,8 @@ Joseph T. Meehean, Towards Transparent CPU Scheduling, University of Wisconsin�
 Thucydides 目前，应用程序、开发人员和系统研究人员都将最佳工作 CPU 调度器视为可靠的黑箱。依赖这些调度器来提供底层但至关重要的服务。在过去的几十年里，处理器快速增长的性能支持了这种依赖和映像。
 单处理器速度不断增长的结束意味着这些假设应该重新考虑。如果对中等负载下的CPU调度器进行更仔细的检查，就会发现它们可以提供反复无常的服务，并实现与依赖于它们的应用程序冲突的资源争用策略。这种看似不稳定的行为对应用程序的可感知可靠性有可怕的后果；它会导致缓慢的响应时间，病态的行为，甚至应用程序失败。
 在这项工作中，我们建议采取科学的方法来理解CPU调度程序；我们开始通过收集观察、生成假设和生成预测模型来揭开CPU调度器的神秘面纱。例如，对 CPU 调度的进一步研究表明，它有时不稳定的行为并不是不可预测的，而只是几个善意策略的不幸组合结果。这种方法产生的观察结果和预测模型使 CPU 调度对应用程序更加透明(并且可由应用程序控制)，并使研究者们能够改进或细化调度策略。</description></item><item><title>Hugo-Tufte Features</title><link>https://laurenfrost.github.io/hugo-tufte-cjk/post/tufte-features/</link><pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate><guid>https://laurenfrost.github.io/hugo-tufte-cjk/post/tufte-features/</guid><description>&lt;p>This is a quick demonstration post. It serves as an example of the features
-of this theme. One of them is $ \LaTeX $ via &lt;a href="https://katex.org/">Katex&lt;/a>.
-&lt;section>
-&lt;/p>
-&lt;h2 id="a-bit-about-mathematics">A Bit About Mathematics&lt;/h2>
+of this theme. 同时还添加了大量中文/日语文本，既是作为测试，亦可看作参考。 One of them is $ \LaTeX $ via &lt;a href="https://katex.org/">Katex&lt;/a>.&lt;/p>
+&lt;h2 id="a-bit-about-mathematics-来一点数学">A Bit About Mathematics 来一点数学&lt;/h2>
 &lt;div class="epigraph">
 &lt;blockquote>
 &lt;p>This is an example of an epigraph with some math
