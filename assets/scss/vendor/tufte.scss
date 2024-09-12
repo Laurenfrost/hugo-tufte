@@ -59,15 +59,20 @@
     font-family: "LxgwNeoZhiSong";
     font-style: normal;
     font-weight: normal;
-    src: url("https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.112/LXGWNeoZhiSongCHS.ttf") format("truetype");
-    src: url("Lxgw/LxgwNeoZhiSong/LXGWNeoZhiSongCHS.ttf") format("truetype");
+    src: url("Lxgw/LxgwNeoZhiSong/LXGWNeoZhiSong.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LxgwHeartSerifCL";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Lxgw/LxgwHeartSerif/LXGWHeartSerifCL.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "LxgwWenKai";
     font-style: normal;
     font-weight: normal;
-    src: url("https://github.com/lxgw/LxgwWenKai/releases/download/v1.300/LXGWWenKai-Regular.ttf") format("truetype");
     src: url("Lxgw/LxgwWenKai/LXGWWenKai-Regular.ttf") format("truetype");
 }
 
@@ -91,7 +96,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    font-family: "et-book", "HuayingMincho", "Noto Serif", serif;
+    font-family: "et-book", "LXGWNeoZhiSong", "Noto Serif", serif;
     background-color: #fffff8;
     color: #111;
     max-width: 1400px;
@@ -122,7 +127,7 @@ h2 {
 
 h2 > code {
     font-style: italic;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 
 h3 {
@@ -151,6 +156,13 @@ h4 {
 h4 > code {
     font-style: italic;
     font-size: 1.3rem;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: "et-book", "LxgwHeartSerifCL";
 }
 
 hr {
@@ -244,9 +256,9 @@ blockquote footer {
 
 ol,
 ul {
-    width: 45%;
-    -webkit-padding-start: 5%;
-    -webkit-padding-end: 5%;
+    width: 51%;
+    -webkit-padding-start: 4%;
+    -webkit-padding-end: 0%;
 }
 
 li  ul {
@@ -474,7 +486,8 @@ pre.code {
 
 span.newthought {
     font-variant: small-caps;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-family: "et-book", "LxgwHeartSerifCL";
 }
 
 input.margin-toggle {
