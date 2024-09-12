@@ -59,6 +59,7 @@
     font-family: "LxgwNeoZhiSong";
     font-style: normal;
     font-weight: normal;
+    // https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v1.015/LXGWNeoZhiSong.ttf
     src: url("Lxgw/LxgwNeoZhiSong/LXGWNeoZhiSong.ttf") format("truetype");
 }
 
@@ -66,6 +67,7 @@
     font-family: "LxgwHeartSerifCL";
     font-style: normal;
     font-weight: normal;
+    // https://github.com/lxgw/LxgwHeartSerif/releases/download/v1.011/LXGWHeartSerifCL.ttf
     src: url("Lxgw/LxgwHeartSerif/LXGWHeartSerifCL.ttf") format("truetype");
 }
 
@@ -73,7 +75,8 @@
     font-family: "LxgwWenKai";
     font-style: normal;
     font-weight: normal;
-    src: url("Lxgw/LxgwWenKai/LXGWWenKai-Regular.ttf") format("truetype");
+    // https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.330/LXGWWenKaiTC-Regular.ttf
+    src: url("Lxgw/LxgwWenKai/LXGWWenKaiTC-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -215,7 +218,7 @@ p {
 
 /* Chapter Epigraphs */
 div.epigraph {
-    font-family: et-book, "LxgwWenKai";
+    font-family: "et-book", "LxgwWenKai";
     margin: 5em 0;
 }
 
@@ -226,7 +229,7 @@ div.epigraph > blockquote {
 
 div.epigraph > blockquote,
 div.epigraph > blockquote > p {
-    font-family: et-book, "LxgwWenKai";
+    font-family: "et-book", "LxgwWenKai";
     font-style: italic;
 }
 

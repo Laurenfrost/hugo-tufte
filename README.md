@@ -22,6 +22,7 @@ This is a fork of a modified version [hugo-tufte](https://github.com/slashformot
   - https://github.com/lxgw/LxgwHeartSerif
 - LXGW WenKai / 霞鹜文楷
   - https://github.com/lxgw/LxgwWenKai
+  - https://github.com/lxgw/LxgwWenkaiTC
 
 ## Quickstart
 
