@@ -120,3 +120,9 @@ table.lntable {
     border-spacing: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 760px) {
+    .pure-g [class*="pure-u"] {
+        max-width: 100%;
+    }
+}

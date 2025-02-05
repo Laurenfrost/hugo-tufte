@@ -3,8 +3,14 @@
     <article class="pure-u-1">
       {{ partial "brand.html" . }}
       
-      <section><h2 id="title">Looks like there is a problem in the url... <br/>
-        <a href="{{ "" | relURL}}">Go Home ? </a></h2></section>
+      <section>
+        <p id="title">
+          Looks like there is a problem in the url... <br/>
+          这看起来是个错误的路径… <br/>
+          この url に間違いがあるようです…
+        </p>
+        <a href="{{ "" | relURL}}">Go Home ? </a>
+      </section>
       <section>
         {{ partial "footer.html" . }}
       </section>

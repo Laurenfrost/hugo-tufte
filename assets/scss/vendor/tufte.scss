@@ -95,7 +95,7 @@ html {
 }
 
 body {
-    width: 87.5%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
@@ -297,8 +297,8 @@ figure {
 }
 
 figcaption {
-    float: right;
-    clear: right;
+    // float: right;
+    // clear: right;
     margin-right: -48%;
     margin-top: 0;
     margin-bottom: 0;
@@ -310,7 +310,8 @@ figcaption {
 }
 
 figure.fullwidth figcaption {
-    margin-right: 24%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Links: replicate underline that clears descenders */
@@ -429,10 +430,23 @@ div.table-wrapper {
 }
 
 @media screen and (max-width: 760px) {
+    body {
+        max-width: 100%;
+        width: 98%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     p,
     hr,
     footer {
         width: 90%;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        width: 90%;
+        margin-left: -3%;
     }
     pre.code {
         width: 87.5%;
@@ -446,7 +460,7 @@ div.table-wrapper {
     figcaption,
     figure.fullwidth figcaption {
         margin-right: 0%;
-        max-width: none;
+        max-width: 100%;
     }
     blockquote p,
     blockquote footer {
@@ -509,7 +523,11 @@ label.margin-toggle:not(.sidenote-number) {
 //     display: inline;
 // }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
+    article {
+        padding: 1rem 0rem;
+        max-width: 100%;
+    }
     label.margin-toggle:not(.sidenote-number) {
         display: inline;
     }
@@ -519,6 +537,9 @@ label.margin-toggle:not(.sidenote-number) {
     .sidenote,
     .marginnote {
         display: inline;
+    }
+    .marginimage {
+        display: block;
     }
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
